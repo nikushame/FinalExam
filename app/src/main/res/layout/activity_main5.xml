@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_worl"
+    tools:context=".MainActivity" >
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="318dp"
+        android:layout_height="301dp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="395dp"
+        android:layout_height="232dp"
+        android:text="ეს არის შენთვის შედგენილი კალენდარი,სადაც ნაჩვენებია თუ როდის გცალია რამდენს ხარჯავ და რომელი დღეა ოპტიმალური განტვირთვისათვის"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="354dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
